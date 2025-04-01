@@ -28,11 +28,11 @@ We use the processed data by [LF-DFnet](https://ieeexplore.ieee.org/stamp/stamp.
 ### Train
 * Run:
   ```python
-  python train.py  --model_name Distg_v10 --angRes 5 --scale_factor 4 --n_groups 10 --n_blocks 5 --channels 64  --crop_test_method 3  
+  python train.py  --model_name LF-HybridNet --angRes 5 --scale_factor 4 --n_groups 10 --n_blocks 5 --channels 64  --crop_test_method 3  
 ### Test
 * Run:
   ```python
-  python test.py --model_name RR_HLFSR --angRes 5 --upscale_factor 4 --n_groups 10 --n_blocks 5 --channels 64  --crop_test_method 3 --self_ensemble True  --model_path [pre-trained dir]
+  python test.py --model_name LF-HybridNet --angRes 5 --upscale_factor 4 --n_groups 10 --n_blocks 5 --channels 64  --crop_test_method 3 --self_ensemble True  --model_path [pre-trained dir]
   
   
   
@@ -62,6 +62,6 @@ Our work and implementations are inspired and based on the following projects: <
 We sincerely thank the authors for sharing their code and amazing research work!
 
 ## Contact
-if you have any question, please contact me through email duongvinh@skku.edu
+if you have any question, please contact me through email csr_20010517@163.com
 
 
