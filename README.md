@@ -35,25 +35,6 @@ We use the processed data by [LF-DFnet](https://ieeexplore.ieee.org/stamp/stamp.
   python test.py --model_name LF_HybridNet --angRes 5 --upscale_factor 4 --n_groups 10 --n_blocks 5 --channels 64  --crop_test_method 3 --self_ensemble True  --model_path [pre-trained dir]
   
   
-  
-## Citation
-If you find this work helpful, please consider citing the following papers:<br> 
-```Citation
-@Article{vinh2023-lfsr,
-  author  = {Duong, V. V. and Nguyen, T. H. and Yim, J. and Jeon, B.},
-  journal = {IEEE Trans. Compuational Imaging},
-  title   = {Light Field Image Super-Resolution Network via Joint Spatial-Angular and Epipolar Information},
-  year    = {2023},
-}
-```
-```Citation
-@InProceedings{NTIRE2023-LFSR,
-  author    = {Wang, Yingqian and Wang, Longguang and Liang, Zhengyu and Yang, Jungang and Timofte, Radu and Guo, Yulan},
-  title     = {NTIRE 2023 Challenge on Light Field Image Super-Resolution},
-  booktitle = {CVPRW},
-  year      = {2023},
-}
-```
 ## Acknowledgement
 Our work and implementations are inspired and based on the following projects: <br> 
 [Basic-LFSR](https://github.com/ZhengyuLiang24/BasicLFSR)<br> 
